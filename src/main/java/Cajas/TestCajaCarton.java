@@ -8,6 +8,7 @@ package Cajas;
  *
  * @author eduardo
  */
+//Actividad Nº8
 public class TestCajaCarton {
     public static void main(String[] args) {
         
@@ -27,5 +28,5 @@ public class TestCajaCarton {
                            El ancho de las cajas chicas es de %s, el alto es de 
                            %s, el largo es de %s y el peso es de %s
                              """.formatted(cajaChica.getAncho(),cajaChica.getAlto(),cajaChica.getLargo(),cajaChica.getPeso()));
-    }  
+    }    
 }

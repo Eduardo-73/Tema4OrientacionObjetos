@@ -68,8 +68,10 @@ public class CajasCarton {
     }
 
     @Override
+    //Método sobreescrito, aquel que esta en una clase superior y estamos 
+    //cambiando su comportamiento
     public String toString() {
         return "CajasCarton{" + "ancho=" + ancho + ", alto=" + alto + ", largo=" + largo + ", peso=" + peso + '}';
     }
-
+    
 }
